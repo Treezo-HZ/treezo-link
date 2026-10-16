@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Treezo – Contact & Catalogs</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:#f4f7f5;color:#1f2a26;line-height:1.5;padding:16px;
+  }
+  .wrap{max-width:520px;margin:0 auto;}
+  .brand{
+    background:#157a52;color:#fff;border-radius:14px 14px 0 0;
+    padding:16px 18px;display:flex;align-items:center;justify-content:center;
+  }
+  .brand .name{font-size:22px;font-weight:700;letter-spacing:.5px}
+  .card{
+    background:#fff;border-radius:0 0 14px 14px;
+    box-shadow:0 6px 24px rgba(0,0,0,.08);padding:24px 18px 28px;
+  }
+  h1{font-size:20px;color:#0f5e3f;margin-bottom:6px;text-align:center}
+  p.lead{color:#6b7a73;font-size:14px;margin-bottom:20px;text-align:center}
+  .wa{
+    display:flex;align-items:center;justify-content:center;gap:12px;
+    text-decoration:none;color:#fff;font-weight:600;font-size:17px;
+    background:#25D366;padding:17px 16px;border-radius:12px;
+    box-shadow:0 3px 10px rgba(0,0,0,.12);margin-bottom:22px;
+  }
+  .wa:active{transform:translateY(1px)}
+  .wa svg{width:24px;height:24px;flex:0 0 24px}
+  .divider{display:flex;align-items:center;gap:12px;margin-bottom:18px}
+  .divider::before,.divider::after{content:"";flex:1;height:1px;background:#e2e8e4}
+  .divider span{font-size:13px;color:#6b7a73;font-weight:600;white-space:nowrap}
+  .list{display:flex;flex-direction:column;gap:12px}
+  .item{
+    display:flex;align-items:center;gap:14px;
+    text-decoration:none;color:#0f5e3f;font-weight:600;font-size:16px;
+    background:#fff;border:2px solid #d8e5de;padding:15px 16px;border-radius:12px;
+  }
+  .item:active{transform:translateY(1px);background:#f4f9f6}
+  .item .ico{
+    width:38px;height:38px;flex:0 0 38px;border-radius:9px;
+    background:#157a52;color:#fff;display:flex;align-items:center;justify-content:center;
+  }
+  .item .ico svg{width:20px;height:20px}
+  .item .txt{display:flex;flex-direction:column;line-height:1.25}
+  .item .txt small{font-weight:400;color:#6b7a73;font-size:12px}
+  footer{text-align:center;color:#6b7a73;font-size:12px;margin-top:18px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand">
+    <span class="name">Treezo</span>
+  </div>
+  <div class="card">
+    <h1>Welcome to Treezo 🌿</h1>
+    <p class="lead">Chat with us, or download the catalog you need.</p>
+
+    <a class="wa" href="https://wa.me/8617506521819" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.97 6.45 17.5 2 12.04 2zm0 1.8c4.51 0 8.16 3.66 8.16 8.16 0 4.5-3.65 8.15-8.16 8.15-1.39 0-2.75-.37-3.93-1.08l-.28-.17-3.12.82.83-3.04-.18-.29A8.09 8.09 0 0 1 3.9 11.91c0-4.5 3.66-8.16 8.16-8.16zm-2.7 3.9c-.2 0-.52.07-.79.34-.27.27-1.04 1.02-1.04 2.48 0 1.46 1.06 2.87 1.21 3.07.15.2 2.03 3.1 5.02 4.22.7.3 1.25.49 1.68.62.7.23 1.34.2 1.85.12.56-.09 1.74-.71 1.99-1.4.24-.69.24-1.27.17-1.4-.07-.13-.27-.2-.56-.35-.29-.15-1.74-.86-2.01-.96-.27-.1-.46-.15-.66.15-.19.3-.74.96-.91 1.16-.17.2-.34.22-.63.07-.29-.15-1.23-.45-2.34-1.45-.86-.77-1.44-1.73-1.61-2.02-.17-.3-.02-.46.12-.61.13-.13.29-.34.43-.51.14-.17.19-.29.29-.49.1-.2.05-.37-.02-.52-.07-.15-.66-1.59-.9-2.18-.24-.57-.48-.5-.66-.51h-.57z"/></svg>
+      Contact us on WhatsApp
+    </a>
+
+    <div class="divider"><span>Download Catalog</span></div>
+
+    <div class="list">
+
+      <a class="item" href="Panels-Catalog.pdf" download>
+        <span class="ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z"/></svg></span>
+        <span class="txt">Panels Catalog<small>Tap to download</small></span>
+      </a>
+
+      <a class="item" href="OSB.pdf" download>
+        <span class="ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z"/></svg></span>
+        <span class="txt">OSB<small>Tap to download</small></span>
+      </a>
+
+      <a class="item" href="Custom-Cabinetry.pdf" download>
+        <span class="ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z"/></svg></span>
+        <span class="txt">Custom Cabinetry<small>Tap to download</small></span>
+      </a>
+
+      <a class="item" href="Prefab-House.pdf" download>
+        <span class="ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z"/></svg></span>
+        <span class="txt">Prefab House<small>Tap to download</small></span>
+      </a>
+
+    </div>
+  </div>
+  <footer>© Treezo</footer>
+</div>
+</body>
+</html>
